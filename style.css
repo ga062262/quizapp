@@ -22,6 +22,7 @@
     --bg-desktop: url(assets/images/pattern-background-desktop-light.svg);
 }
 
+
 body.escuro{
     --bg-color:#313e51;
     --bg-mobile: url(assets/images/pattern-background-mobile-dark.svg);
@@ -32,6 +33,7 @@ body.escuro{
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
 }
 
+
 body{
     height: 100svh;
     background: var(--bg-mobile) var(--bg-color);
@@ -39,10 +41,13 @@ body{
     background-size: cover;
 }
 
+
 header{
     padding: 16px 24px;
     display: flex;
     justify-content: flex-end;
+    max-width: 1160px;
+    margin-inline: auto;
 }
 
 .tema{
